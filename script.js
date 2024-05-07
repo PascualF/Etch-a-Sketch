@@ -1,5 +1,6 @@
 const cont = document.querySelector(".cont");
 
+let gridSize = 16;
 // we need to make row and columns for the grid 16x16
 // that can be achieved with nested for loops
 
@@ -22,7 +23,7 @@ btn.addEventListener(('click'), () => {
     }
 });
 
-createGrid()
+createGrid(gridSize);
 
 // Function to create the grid (Columns and rows).
 function createGrid(gridSize){
