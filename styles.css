@@ -1,20 +1,14 @@
-
-*{
-    box-sizing: border-box;
-}
-
-
-:root{
-    --grid-cols:1;
-    --grid-rows:1;
-}
-
-.container{
+.cont{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     border: 1px solid black;
-    width: 960px;
-    height: 960px;
-    grid-template-rows: repeat(var(--grid-rows),1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);  
+    width: 400px;
+    height: 400px;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+div{
+    margin: 0px;
+    border:0px;
 }
